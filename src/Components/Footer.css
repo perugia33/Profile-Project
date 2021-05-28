@@ -1,0 +1,19 @@
+.footer{
+    padding-right: 1em;
+    align-self: center;
+    font-size: large;
+   
+    
+  
+  }
+  
+   .fab fa-github{
+      color: indigo;
+      background-color: whitesmoke;
+    
+      width: 20%;
+      height: 30%;
+      margin-left: 20%;
+      padding: 10px;
+  
+  }

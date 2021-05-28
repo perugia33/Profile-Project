@@ -1,0 +1,43 @@
+.counter{
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items:center;
+  }
+
+  #state{
+      margin-right: 10px;
+      color: rgb(71, 35, 107);
+      font-size: x-large;
+    
+  }
+
+  #like {
+      background-color: rgb(241, 61, 121);
+      color: rgb(71, 35, 107);
+      font-weight:800px;
+      font-size: medium;
+      padding: 8px;
+      width: 60%;
+      border-radius: 20%;
+      
+  }
+
+
+  
+  @media screen and (max-width: 600px){ 
+
+
+
+    .counter {
+      padding: 5px;
+      margin-right: 20px;
+    }
+   
+
+    #state{
+        margin-right: 5px;
+
+    }
+
+  }

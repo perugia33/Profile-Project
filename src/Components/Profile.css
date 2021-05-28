@@ -1,0 +1,47 @@
+.greeting{
+    align-self: center;
+    margin-left: 20%;
+    justify-content: center;
+    width: 30vw;
+    color: indigo;
+    position: relative;
+    
+  }
+
+  button{
+    margin-right: 5px;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 10%;
+    color: indigo;
+    background-color: rgb(146, 230, 230);
+    font-weight: 700;
+   
+
+  }
+
+
+  #state{
+    margin-left: 5%;
+  }
+
+  @media screen and (max-width: 600px){ 
+
+   
+  
+    .greeting{
+      margin-left: 10%;
+    }
+
+
+
+    #state{
+      font-size: 18px;
+    }
+
+
+    button {
+      margin-bottom: 5px;
+    }
+  
+  }
